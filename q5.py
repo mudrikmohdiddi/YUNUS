@@ -1,0 +1,5 @@
+fname=str(input("enter your first name"))
+lname=str(input("enter your last name"))
+Age=int(input("enter your Age"))
+Age_sec=(Age*365*24*60*60)
+print("Welcome ",fname," ",lname,"and your age is ",Age_sec)

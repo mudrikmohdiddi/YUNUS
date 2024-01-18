@@ -1,0 +1,5 @@
+x=int(input("eneter three number: eg 123: "))
+y=int(str(x)[::-1])
+print("The original number",x)
+print("the reverse number",y)
+print("the sum is",x,"+",y,"= ",x+y)
